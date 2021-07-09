@@ -5,8 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Article preview component</title>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
+  <article class="articulo">
+    <div class="articulo__contenedor-img">
+      <img src="./images/drawers.jpg" alt="Drawers" class="articulo__img">
+    </div>
+    <div class="articulo__contenido">
+      <h2 class="articulo__titulo">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+      <p class="articulo__texto">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+      <div class="autor">
+        <div class="autor__datos">
+          <img src="./images/avatar-michelle.jpg" alt="Avatar Michelle" class="autor__img">
+          <div class="autor__info">
+            <p>Michelle Appleton</p>
+            <p>28 Jun 2020</p>
+          </div>
+        </div>
+        <div class="autor__compartir">
+          <i class='bx bxs-share bx-flip-horizontal boton-compartir'></i>
+          <div class="autor__redes">
+            <span>SHARE</span>
+            <a href="#"><i class='bx bxl-facebook-square'></i>  </a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-pinterest' ></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <script src="js/script.js"></script>
 </body>
 </html>
